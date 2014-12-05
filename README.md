@@ -1,6 +1,4 @@
-First Exam :
-
-12-04-2014
+First Exam : 12-04-2014
 
 I haven't the subject, don't remember ex04.
 
