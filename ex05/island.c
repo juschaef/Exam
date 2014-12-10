@@ -6,7 +6,7 @@
 /*   By: juschaef <juschaef@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/12/05 15:01:52 by juschaef          #+#    #+#             */
-/*   Updated: 2014/12/10 12:08:15 by juschaef         ###   ########.fr       */
+/*   Updated: 2014/12/10 21:24:25 by juschaef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	mark_map(char **grid, int i, int j, char mark)
 		return ;
 	if (!grid[i])
 		return ;
-	if (grid[i][j] != 'x')
+	if (grid[i][j] != 'X')
 		return ;
 	grid[i][j] = mark;
 	mark_map(grid, i - 1, j, mark);
@@ -40,7 +40,7 @@ void	travel(char **grid)
 		j = 0;
 		while (grid[i][j] != '\0')
 		{
-			if (grid[i][j] == 'x')
+			if (grid[i][j] == 'X')
 			{
 				mark_map(grid, i, j, mark);
 				mark++;
