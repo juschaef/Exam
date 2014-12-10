@@ -6,7 +6,7 @@
 /*   By: juschaef <juschaef@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/12/05 15:45:28 by juschaef          #+#    #+#             */
-/*   Updated: 2014/12/05 15:50:53 by juschaef         ###   ########.fr       */
+/*   Updated: 2014/12/10 12:06:48 by juschaef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,6 +97,6 @@ char	**parsing(char *str)
 		}
 		map++;
 	}
-	grid[i] = NULL;
+	grid[i + 1] = NULL;
 	return (grid);
 }
